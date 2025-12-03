@@ -1,0 +1,374 @@
+/*  BOOTSTRAP COLOR CUSTOMIZATION  */
+:root {
+    --bs-primary: #d39a4c;
+    --bs-secondary: #7faf4a;
+    --bs-body-bg: #ffffff;
+    --bs-body-color: #222;
+}
+
+/*  NAVBAR  */
+.nav-bg {
+    background-color: #eac27c;
+}
+
+.nav-logo {
+    height: 100px;
+}
+
+.nav-link {
+    font-weight: 600;
+    margin-left: 15px;
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: #1b5e20 !important;
+}
+
+/*  HERO  */
+.hero-section {
+    background: #ffffff;
+}
+
+/* Gradient big heading */
+.hero-heading {
+    font-size: 5rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #d28a1e, #8ab53e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Monkey Icon */
+.monkey-icon {
+    width: 60px;
+    vertical-align: middle;
+}
+
+/* Hero Image - Big but safe */
+.hero-img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Donate background bar */
+.donate-area {
+    background: linear-gradient(45deg, #e69a66, #f7b46b);
+}
+
+/* Donate button */
+.donate-btn {
+    font-size: 1.4rem;
+    background: linear-gradient(45deg, #ffcd72, #ffa94b);
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 4px 6px 15px rgba(0,0,0,0.25);
+    transition: 0.3s ease;
+}
+
+.donate-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 6px 10px 20px rgba(0,0,0,0.35);
+}
+
+/* Accessibility skip link */
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+}
+
+.visually-hidden-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--bs-primary);
+    color: #fff;
+    border-radius: 4px;
+}
+/* ADOPT SECTION */
+.adopt-section {
+    background: #ef9f79; 
+}
+
+/* Rounded animal images */
+.adopt-img {
+    border-radius: 30px;
+    max-width: 420px;
+}
+
+/* White text bubble */
+.adopt-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 25px;
+    border: 2px solid #d8d8d8;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-size: 1.1rem;
+}
+
+/* Paw icons */
+.paw-icon, .bone-icon {
+    width: 35px;
+    margin: 0 5px;
+    opacity: 0.9;
+}
+
+/* Adopt button */
+.adopt-btn {
+    background: linear-gradient(45deg, #ffcd72, #ffa94b);
+    padding: 12px 35px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.25);
+    transition: 0.3s ease;
+}
+
+.adopt-btn:hover {
+    transform: translateY(-4px);
+}
+
+/* small icon inside adopt button */
+.btn-icon {
+    width: 32px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* DOGS ROW SECTION */
+
+.dogs-banner {
+    background: #ffffff;   
+    border-top: 3px solid #333;  
+}
+
+.dogs-banner-img {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+/* ABOUT CARDS */
+
+.about-cards-section {
+    background: linear-gradient(180deg, #f7c6b3, #ef9f79); 
+}
+
+/* Main card container */
+.info-card {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+/* Red handwriting title */
+.section-title {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #d42020;
+    margin-bottom: 20px;
+}
+
+/* Normal text */
+.section-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Rounded images */
+.center-img {
+    border-radius: 25px;
+    width: 100%;
+    max-width: 330px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Learn more button */
+.learn-btn {
+    background: linear-gradient(45deg, #ffcd72, #ffa94b);
+    padding: 12px 35px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.25);
+    transition: 0.3s ease;
+}
+
+.learn-btn:hover {
+    transform: translateY(-4px);
+}
+
+/* Button icon */
+.btn-icon {
+    width: 25px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Star icons under cards */
+.star-icon {
+    width: 70px;
+    position: absolute;
+    bottom: -28px;
+    right: -30px;
+    
+}
+/*  FOOTER  */
+
+/* Social Icons Row */
+.social-icon img {
+    width: 40px;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Number */
+.contact-number {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Black Bottom Bar */
+.footer-bottom {
+    background: #000;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.footer-copy {
+    margin: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+/*  HERO SECTION */
+.about-hero-section {
+    background: #ffffff;
+}
+
+.hero-img-left,
+.hero-img-right {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-hero-text {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    position: relative;
+    z-index: 2;
+}
+
+.about-paw-bg {
+    width: 150px;
+    opacity: 0.25;
+    position: absolute;
+    top: 20%;
+    right: 28%;
+    z-index: 1;
+}
+
+/*  ABOUT CONTENT SECTION */
+.about-content-section {
+    background: linear-gradient(180deg, #f7c6b3, #ef9f79);
+}
+
+.about-title {
+    font-size: 4rem;
+    font-family: "Georgia", serif;
+    font-weight: bold;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.about-tall-img {
+    border-radius: 25px;
+    max-width: 320px;
+}
+
+.about-small-card {
+    background: linear-gradient(45deg, #ffe6b0, #f9a1c2);
+    border-radius: 25px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Heart icon right side */
+.about-heart-icon {
+    width: 180px;
+    opacity: 0.8;
+}
+/* Donate Main Button */
+.donate-main-btn {
+    background: linear-gradient(to right, #ffa733, #ffd28c);
+    border: none;
+    padding: 18px 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.25);
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+.donate-icon {
+    width: 60px;
+    margin-left: 15px;
+}
+
+/* Donor Cone */
+.donor-cone-img {
+    width: 60%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Donation Text */
+.donation-subtitle {
+    font-size: 28px;
+    color: #3a1f00;
+}
+
+.donation-text {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #2e1500;
+}
+
+
