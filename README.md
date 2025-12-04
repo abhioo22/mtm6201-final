@@ -38,4 +38,4 @@ I combined relative/absolute positioning and Bootstrap spacing utilities, and si
 
 All images used in this project were either created by me or generated using AI-based tools such as Adobe Firefly / Midjourney / DALL·E. These images were modified, optimized, and resized to fit the needs of the website. No copyrighted or licensed stock images were used.
 
-Wherever external assets were used (icons, decorative graphics), they were open-source or royalty-free resources and are listed below.
+Wherever external assets were used (icons, decorative graphics), they were open-source or royalty-free resources and are listed below. 
